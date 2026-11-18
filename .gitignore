@@ -1,0 +1,37 @@
+# STM32CubeIDE / Eclipse build artifacts
+firmware/Debug/
+firmware/Release/
+firmware/.metadata/
+firmware/**/Debug/
+firmware/**/Release/
+firmware/*.bin
+firmware/*.hex
+firmware/*.elf
+firmware/*.map
+firmware/*.list
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Dashboard runtime logs (preserves sample/ and models/)
+dashboard/log.txt
+*.log
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
